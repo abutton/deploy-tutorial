@@ -13,12 +13,16 @@ PAGE_SAVE_AS = '{slug}/index.html'
 DEFAULT_LANG = 'en'
 DEFAULT_CATEGORY = 'notes'
 PATH = 'src/'
-OUTPUT_PATH = 'www/'
+OUTPUT_PATH = '../www/'
 STATIC_PATHS = ['images']
-DISQUS_SITENAME = "abutton"
+DISQUS_SITENAME = "kjpy"
 
 
-SOCIAL = (('Alex\'s Site', 'http://www.abutton.com'),
+SOCIAL = (('Liz\'s Site', 'http://www.eleddy.com'),
+          ('Liz\'s Twitter', 'http://twitter.com/eleddy'),
+          ('Kellan\'s Site', 'http://kellanjacobs.com'),
+          ('Kellan\'s Twitter', 'http://twitter.com/kellanjacobs'),
+          ('Alex\'s Site', 'http://www.abutton.org'),
           ('Alex\'s Twitter', 'http://twitter.com/abutton'),)
 
 
