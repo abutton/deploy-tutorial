@@ -1,7 +1,7 @@
 from fabric.api import env, run, cd
 
 env.user = "abutton"
-env.hosts = ["pycourse.com']
+env.hosts = ["pycourse.com"]
 
 def deploy():
     cd('~/blog')
