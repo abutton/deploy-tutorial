@@ -1,6 +1,6 @@
-AUTHOR = u"Kellan"
-SITENAME = u"Kellan Jacobs"
-SITEURL = 'http://kellan.pycourse.com'
+AUTHOR = u"Alex"
+SITENAME = u"Alex Button"
+SITEURL = 'http://abutton.pycourse.com'
 RELATIVE_URLS = True
 
 TIMEZONE = 'America/Los_Angeles'
@@ -15,13 +15,11 @@ DEFAULT_CATEGORY = 'notes'
 PATH = 'src/'
 OUTPUT_PATH = 'www/'
 STATIC_PATHS = ['images']
-DISQUS_SITENAME = "pycourse"
+DISQUS_SITENAME = "abutton"
 
 
-SOCIAL = (('Liz\'s Site', 'http://www.eleddy.com'),
-          ('Liz\'s Twitter', 'http://twitter.com/eleddy'),
-          ('Kellan\'s Site', 'http://kellanjacobs.com'),
-          ('Kellan\'s Twitter', 'http://twitter.com/kellanjacobs'),)
+SOCIAL = (('Alex\'s Site', 'http://www.abutton.com'),
+          ('Alex\'s Twitter', 'http://twitter.com/abutton'),)
 
 
 DEFAULT_PAGINATION = 10
