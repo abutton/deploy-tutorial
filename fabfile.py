@@ -1,9 +1,9 @@
-from fabric.api import env, run, cd
+from fabric.api import env, cd, local
 
 env.user = "abutton"
-env.hosts = ["pycourse.com"]
+env.hosts = ["192.168.88.120"]
 
 def deploy():
-    cd('~/blog')
-    run('git pull')
-    run('bin/pelican -s mysite.py')
+    cd('~/projects/deploy-tutorial/')
+    local('git pull')
+    local('bin/pelican -s mysite.py')
